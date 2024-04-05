@@ -1,5 +1,5 @@
 #seleciona imagem base
-FROM node
+FROM node:20.11.1
 
 #define diretorio usado no container
 WORKDIR /app
